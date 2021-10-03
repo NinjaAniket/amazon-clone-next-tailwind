@@ -3,7 +3,7 @@ import Banner from "../components/banner";
 import GridProducts from "../components/grid-products";
 import Header from "../components/header";
 import ProductFeed from "../components/product-feed";
-import favicon from "../../public/favicon.ico";
+// import favicon from "../../public/favicon.ico";
 
 export default function Home({ data }) {
   const products = [
@@ -53,8 +53,9 @@ export default function Home({ data }) {
     <div>
       <Head>
         <link
-          rel="shortcut icon"
-          href={favicon.src}
+          rel="icon"
+          // href={favicon.src}
+          href="/public/favicon.ico"
           type="image/x-icon"
           style={{ backgroundColor: "white" }}
         />
